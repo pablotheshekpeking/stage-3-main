@@ -12,8 +12,9 @@ import Link from "next/link";
 const Navbar = () => {
     return (
         <Stack direction={'row'}>
-            <Box> <HamburgerIcon /> </Box>
-            <Box w={'25%'}>
+            <Box w={'33%'}> <HamburgerIcon color={'white'} /> </Box>
+            <Box w={'33%'}><Text textAlign={'center'}>Movie Image Gallery</Text></Box>
+            <Box w={'33%'}>
                 <Link href={'../'}><Button>Logout</Button></Link>
             </Box>
         </Stack>
