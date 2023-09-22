@@ -21,7 +21,7 @@ export function Providers({ children }) {
         <Stack bg={'black'}>
           <Navbar />
           <Search onSearch={handleSearch} />
-          <Stack direction={'column'}>
+          <Stack direction={'column'} p={'20px'}>
             <Box>
               <Text fontWeight={'bold'} color={'white'}> Welcome to Movie Image Gallery! </Text>
             </Box>
