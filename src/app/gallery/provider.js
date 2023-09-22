@@ -18,9 +18,8 @@ export function Providers({ children }) {
   return (
     <CacheProvider>
       <ChakraProvider>
-        <Stack bg={'black'}>
+        <Stack bg={'#020e15'}>
           <Navbar />
-          <Search onSearch={handleSearch} />
           <Stack direction={'column'} p={'20px'}>
             <Box>
               <Text fontWeight={'bold'} color={'white'} fontSize={['20px', '20px', '30px', '30px']}> Hi USER </Text>
@@ -29,6 +28,7 @@ export function Providers({ children }) {
               <Text fontWeight={'bold'} color={'white'} fontSize={['15px', '15px', '25px', '25px']}> Welcome to Movie Image Gallery! </Text>
             </Box>
           </Stack>
+          <Search onSearch={handleSearch} />
           {/**<Stack direction={'row'} p={'20px'}>
           <Box w={'25%'}><No1 /></Box>
           <Box w={'25%'}><No2 /></Box>
