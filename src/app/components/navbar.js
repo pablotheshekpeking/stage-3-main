@@ -11,11 +11,11 @@ import { HamburgerIcon } from '@chakra-ui/icons';
 import Link from "next/link";
 const Navbar = () => {
     return (
-        <Stack direction={'row'}>
+        <Stack direction={'row'} p={'20px'}>
             <Box w={'33%'}> <HamburgerIcon color={'white'} /> </Box>
-            <Box w={'33%'}><Text textAlign={'center'}>Movie Image Gallery</Text></Box>
+            <Box w={'33%'}><Text textAlign={'center'} color={'white'}>Movie Image Gallery</Text></Box>
             <Box w={'33%'}>
-                <Link href={'../'}><Button>Logout</Button></Link>
+                <Link href={'../'}><Button float={'right'}>Logout</Button></Link>
             </Box>
         </Stack>
     );
