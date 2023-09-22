@@ -28,7 +28,7 @@ export function Providers({ children }) {
       <ChakraProvider>
         <Stack bg={'#020e15'}>
           <Navbar />
-          <Stack direction={'row'} p={'20px'}>
+          <Stack direction={['column', 'column', 'row', 'row']} p={'20px'}>
             <Box w={'50%'}>
               <Box>
                 <Text fontWeight={'bold'} color={'white'} fontSize={['20px', '20px', '30px', '30px']}> Hi MENTOR </Text>
@@ -41,7 +41,7 @@ export function Providers({ children }) {
               </Box>
             </Box>
 
-            <Box w={'50%'}>
+            <Box w={['100%', '100%', '50%', '50%']}>
               <StatGroup color={'white'}>
                 <Stat>
                   <StatLabel>Users</StatLabel>
