@@ -41,7 +41,7 @@ export function Providers({ children }) {
               </Box>
             </Box>
 
-            <Box w={['100%', '100%', '50%', '50%']}>
+            <Box w={['100%', '100%', '50%', '50%']} pt={['20px', '20px', '0', '0']}>
               <StatGroup color={'white'}>
                 <Stat>
                   <StatLabel>Users</StatLabel>
