@@ -30,7 +30,7 @@ export default function Form() {
       console.log('Signed in successfully:', user);
       router.push('../gallery');
     } catch (error) {
-      setError('Invalid email or password. Please try again.');
+      setError('Invalid email or password. Please try again with email: user@example.com password: 1Password');
     }
   };
 
@@ -42,7 +42,7 @@ export default function Form() {
       bg={useColorModeValue('gray.50', 'gray.800')}>
       <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
         <Stack align={'center'}>
-          <Heading fontSize={['', '', '4xl', '4xl']}>Sign in to your account</Heading>
+          <Heading fontSize={['', '', '4xl', '4xl']}>Welcome Back Sign in to your account</Heading>
         </Stack>
         <Box
           rounded={'lg'}
