@@ -71,12 +71,12 @@ export default function Form() {
             <Stack spacing={10}>
               <Button
                 onClick={handleSignIn} // Call the handleSignIn function when the button is clicked
-                bg={'blue.400'}
+                bg={'#020e15'}
                 p={'10px'}
                 w={'100%'}
                 color={'white'}
                 _hover={{
-                  bg: '#020e15',
+                  bg: 'blue.400',
                 }}>
                 Sign in
               </Button>

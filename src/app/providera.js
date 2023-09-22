@@ -13,8 +13,8 @@ export function ProvidersA({ children }) {
       <ChakraProvider>
 
         {/** header */}
-        <Stack bg={'blue.400'} p={'20px'} w={'100%'}>
-          <Link href={'../'}><Text textAlign={'center'} color={'white'}>Movie Poster Image Gallery</Text></Link>
+        <Stack bg={'#020e15'} p={'20px'} w={'100%'}>
+          <Link href={'../'}><Text textAlign={'center'} color={'white'}>Movie Image Gallery</Text></Link>
         </Stack>
 
         {/** form */}
