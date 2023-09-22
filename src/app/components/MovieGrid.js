@@ -90,7 +90,7 @@ const MovieGrid = ({ initialMovies }) => {
           />
         ))}
 
-        {loading && <p>Loading...</p>}
+        {loading && <p style={{color: 'white',}}>Loading...</p>}
       </div>
     </DndProvider>
   );
