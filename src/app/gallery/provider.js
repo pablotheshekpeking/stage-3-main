@@ -22,7 +22,7 @@ export function Providers({ children }) {
           <Navbar />
           <Stack direction={'column'} p={'20px'}>
             <Box>
-              <Text fontWeight={'bold'} color={'white'} fontSize={['20px', '20px', '30px', '30px']}> Hi USER </Text>
+              <Text fontWeight={'bold'} color={'white'} fontSize={['20px', '20px', '30px', '30px']}> Hi MENTOR </Text>
             </Box>
             <Box>
               <Text fontWeight={'bold'} color={'white'} fontSize={['15px', '15px', '25px', '25px']}> Welcome to Movie Image Gallery! </Text>

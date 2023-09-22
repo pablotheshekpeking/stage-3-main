@@ -74,9 +74,9 @@ export default function Form() {
                 bg={'blue.400'}
                 p={'10px'}
                 w={'100%'}
-                color={'black'}
+                color={'white'}
                 _hover={{
-                  bg: 'blue.500',
+                  bg: '#020e15',
                 }}>
                 Sign in
               </Button>
