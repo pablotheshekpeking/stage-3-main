@@ -18,7 +18,7 @@ const Navbar = () => {
                     <AvatarBadge boxSize='1.25em' bg='green.500' />
                 </Avatar> 
             </Box>
-            <Box w={'33%'}><Text textAlign={'center'} color={'white'}>Movie Image Gallery</Text></Box>
+            <Box w={'33%'}><Text textAlign={'center'} color={'white'}><Link href={'../gallery'}>Movie Image Gallery</Link></Text></Box>
             <Box w={'33%'}>
                 <Link href={'../'}><Button float={'right'}>Logout</Button></Link>
             </Box>
