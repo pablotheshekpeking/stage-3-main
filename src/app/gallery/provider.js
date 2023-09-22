@@ -18,25 +18,25 @@ export function Providers({ children }) {
   return (
     <CacheProvider>
       <ChakraProvider>
-        <Stack bg={'blackAlpha.200'}>
-        <Navbar />
-        <Search onSearch={handleSearch} />
-        <Stack direction={'row'}>
-        <Box>
-        <Text> Welcomw to Movie Image Gallery! </Text>
-        </Box>
-        <Box>
-        <Text> ENJOY! </Text>
-        </Box>
-        </Stack>
-        {/**<Stack direction={'row'} p={'20px'}>
+        <Stack bg={'black'}>
+          <Navbar />
+          <Search onSearch={handleSearch} />
+          <Stack direction={'column'}>
+            <Box>
+              <Text fontWeight={'bold'} color={'white'}> Welcome to Movie Image Gallery! </Text>
+            </Box>
+            <Box>
+              <Text fontWeight={'bold'} color={'white'}> ENJOY! </Text>
+            </Box>
+          </Stack>
+          {/**<Stack direction={'row'} p={'20px'}>
           <Box w={'25%'}><No1 /></Box>
           <Box w={'25%'}><No2 /></Box>
           <Box w={'25%'}><No3 /></Box>
           <Box w={'25%'}><No4 /></Box>
           </Stack>*/}
           <MovieGrid initialMovies={searchResults} />
-          </Stack>
+        </Stack>
       </ChakraProvider>
     </CacheProvider>
   );
