@@ -26,7 +26,7 @@ export function Providers({ children }) {
               <Stack direction={'row'}>
               <Text fontWeight={'bold'} color={'white'} fontSize={['20px', '20px', '30px', '30px']}> Hi MENTOR </Text>
               <Avatar>
-                <AvatarBadge boxSize={['20px', '20px', '30px', '30px']} bg='green.500' />
+                <AvatarBadge boxSize={['10px', '10px', '20px', '20px']} bg='green.500' />
               </Avatar>
               </Stack>
             </Box>
