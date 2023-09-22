@@ -4,6 +4,7 @@ import { CacheProvider } from '@chakra-ui/next-js';
 import { ChakraProvider } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { Stack, Box, Text } from '@chakra-ui/react';
+import { Avatar, AvatarBadge, AvatarGroup } from '@chakra-ui/react';
 import Navbar from '../components/navbar';
 import Search from '../components/searchbar';
 import MovieGrid from '../components/MovieGrid';
@@ -22,7 +23,12 @@ export function Providers({ children }) {
           <Navbar />
           <Stack direction={'column'} p={'20px'}>
             <Box>
+              <Stack direction={'row'}>
               <Text fontWeight={'bold'} color={'white'} fontSize={['20px', '20px', '30px', '30px']}> Hi MENTOR </Text>
+              <Avatar>
+                <AvatarBadge boxSize='1.25em' bg='green.500' />
+              </Avatar>
+              </Stack>
             </Box>
             <Box>
               <Text fontWeight={'bold'} color={'white'} fontSize={['15px', '15px', '25px', '25px']}> Welcome to Movie Image Gallery! </Text>
