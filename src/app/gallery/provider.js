@@ -23,6 +23,9 @@ export function Providers({ children }) {
           <Search onSearch={handleSearch} />
           <Stack direction={'column'} p={'20px'}>
             <Box>
+              <Text fontWeight={'bold'} color={'white'} fontSize={['20px', '20px', '30px', '30px']}> Hi USER </Text>
+            </Box>
+            <Box>
               <Text fontWeight={'bold'} color={'white'} fontSize={['20px', '20px', '30px', '30px']}> Welcome to Movie Image Gallery! </Text>
             </Box>
             <Box>
