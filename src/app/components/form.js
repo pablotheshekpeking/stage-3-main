@@ -12,6 +12,7 @@ import {
   Button,
   Heading,
   useColorModeValue,
+  Text 
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
@@ -42,7 +43,8 @@ export default function Form() {
       bg={useColorModeValue('gray.50', 'gray.800')}>
       <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
         <Stack align={'center'}>
-          <Heading fontSize={['', '', '4xl', '4xl']}>Welcome Back Sign in to your account</Heading>
+          <Heading fontSize={['', '', '4xl', '4xl']}>Welcome Back</Heading>
+          <Text> Sign in to your account</Text>
         </Stack>
         <Box
           rounded={'lg'}
