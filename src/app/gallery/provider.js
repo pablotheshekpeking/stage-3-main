@@ -27,6 +27,9 @@ export function Providers({ children }) {
             <Box>
               <Text fontWeight={'bold'} color={'white'} fontSize={['15px', '15px', '25px', '25px']}> Welcome to Movie Image Gallery! </Text>
             </Box>
+            <Box>
+              <Text fontWeight={'bold'} color={'white'} fontSize={['10px', '10px', '20px', '20px']}> Home of all the best movie posters </Text>
+            </Box>
           </Stack>
           <Search onSearch={handleSearch} />
           {/**<Stack direction={'row'} p={'20px'}>

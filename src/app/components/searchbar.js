@@ -37,6 +37,7 @@ const Search = ({ onSearch }) => {
                         placeholder="Search for images with movie title..."
                         value={query}
                         onChange={(e) => setQuery(e.target.value)}
+                        color={'white'}
                     />
                 </Box>
                 <Box w={['20%', '20%', '10%', '10%']}>
