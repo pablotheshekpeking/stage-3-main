@@ -73,7 +73,7 @@ const MovieGrid = ({ initialMovies }) => {
         ref={containerRef}
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(3, 1fr)",
+          gridTemplateColumns: "repeat(2, 1fr)",
           gap: "20px",
           minHeight: "100vh",
           overflowY: "auto",
