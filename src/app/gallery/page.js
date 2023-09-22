@@ -5,7 +5,7 @@ import { Providers } from './provider'
 export default function Home() {
   return (
     <div>
-      <Providers bg={"black"} />
+      <Providers />
     </div>
   )
 }
