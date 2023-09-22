@@ -26,10 +26,7 @@ export function Providers({ children }) {
               <Text fontWeight={'bold'} color={'white'} fontSize={['20px', '20px', '30px', '30px']}> Hi USER </Text>
             </Box>
             <Box>
-              <Text fontWeight={'bold'} color={'white'} fontSize={['20px', '20px', '30px', '30px']}> Welcome to Movie Image Gallery! </Text>
-            </Box>
-            <Box>
-              <Text fontWeight={'bold'} color={'white'} fontSize={['15px', '15px', '25px', '25px']}> ENJOY! </Text>
+              <Text fontWeight={'bold'} color={'white'} fontSize={['15px', '15px', '25px', '25px']}> Welcome to Movie Image Gallery! </Text>
             </Box>
           </Stack>
           {/**<Stack direction={'row'} p={'20px'}>
