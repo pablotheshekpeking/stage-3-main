@@ -23,10 +23,10 @@ export function Providers({ children }) {
           <Search onSearch={handleSearch} />
           <Stack direction={'column'} p={'20px'}>
             <Box>
-              <Text fontWeight={'bold'} color={'white'}> Welcome to Movie Image Gallery! </Text>
+              <Text fontWeight={'bold'} color={'white'} fontSize={'30px'}> Welcome to Movie Image Gallery! </Text>
             </Box>
             <Box>
-              <Text fontWeight={'bold'} color={'white'}> ENJOY! </Text>
+              <Text fontWeight={'bold'} color={'white'} fontSize={'25px'}> ENJOY! </Text>
             </Box>
           </Stack>
           {/**<Stack direction={'row'} p={'20px'}>
