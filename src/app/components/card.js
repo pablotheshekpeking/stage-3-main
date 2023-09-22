@@ -24,7 +24,7 @@ const Card = ({ movie, index, moveCard }) => {
 
   return (
     <div ref={(node) => ref(drop(node))}>
-      <Box w={'full'} h={['200px', '200px', '400px', '400px']}>
+      <Box w={'full'} border={'2px solid'} borderColor={'white'}>
         <Img src={imageUrl} alt={movie.title} mb={'20px'} />
       </Box>
     </div>
