@@ -19,9 +19,11 @@ const Navbar = () => {
                 </Text>
             </Box>
             <Box w={'33%'}>
+                <Link href={'../'}>
                     <Button float={'right'}>
                         Logout
                     </Button>
+                </Link>
             </Box>
         </Stack>
     );
