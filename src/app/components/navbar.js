@@ -5,7 +5,7 @@ import { Stack, Box, Text, Button } from '@chakra-ui/react';
 import { Avatar, AvatarBadge, AvatarGroup } from '@chakra-ui/react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-
+const Navbar = () => {
     return (
         <Stack direction={'row'} p={'20px'}>
             <Box w={'33%'}>
@@ -25,5 +25,6 @@ import Link from 'next/link';
             </Box>
         </Stack>
     );
+}
 
 export default Navbar;
