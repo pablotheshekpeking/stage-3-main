@@ -1,11 +1,14 @@
 'use client'
 
 import { Providers } from './provider'
+import { AuthProvider } from '../AuthContext';
 
 export default function Home() {
   return (
-    <div>
-      <Providers />
-    </div>
+    <AuthProvider>
+      <div>
+        <Providers />
+      </div>
+    </AuthProvider>
   )
 }
