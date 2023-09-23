@@ -6,7 +6,7 @@ import { Avatar, AvatarBadge, AvatarGroup } from '@chakra-ui/react';
 import { useRouter } from 'next/navigation';
 import { HamburgerIcon } from '@chakra-ui/icons';
 import Link from 'next/link';
-import { useAuth } from '../path-to-AuthContext'; // Import the useAuth hook
+import { useAuth } from '../AuthContext'; // Import the useAuth hook
 
 const Navbar = () => {
     const router = useRouter();
